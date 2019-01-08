@@ -1,0 +1,209 @@
+
+body{
+	font-family: monospace;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+header
+{
+	/*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img014.jpg);*/
+	background-color: #8B4513;
+	height: 70px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.container{
+	/*border-bottom: 1px solid white;*/
+}
+
+.main_nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+
+.main_nav li{
+	display: inline-block;
+}
+
+.main_nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:" Roboto", sans-serif;
+	font-size: 12px;
+}
+
+.logo img{
+	width: 120px;
+	height: auto;
+	float: left;
+}
+
+
+.infos_container{
+	/*background-color: red;*/
+	margin-top: 50px;
+	height: 430px;
+		
+}
+
+.braid_title{
+	/*background-color: green;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.braid_title h1{
+	margin-left: 550px;
+}
+
+
+#block_infos1{
+	height: 350px;
+	width: 300px;
+	/*background-color: yellow;*/
+	margin-left: 150px;
+	float: left;
+
+}
+
+#block_infos2{
+	height: 350px;
+	width: 300px;
+	/*background-color: yellow;*/
+	margin-right:140px;
+	float: right;
+
+}
+
+#block_infos3{
+	height: 350px;
+	width: 300px;
+	/*background-color: yellow;*/
+	margin-right:70px;
+	float: right;
+}
+
+.block_img{
+	height: 350px;
+	width: 300px;
+}
+
+/* Footer */
+footer{
+	height: 200px;
+	background-color: efefef;
+	/*margin-top: 10px;*/
+	/*background-color: red;*/
+	padding-top: 30px;
+}
+
+/* Block Contact- Footer*/
+.logo-footer{
+	float: left;
+}
+
+.logo-footer img{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+
+.slogan-text{
+	float: right;
+	margin-top:40px;
+}
+#slogan-text{
+    font-size: 16px;
+    color: black;
+}
+
+#block_service{
+	height: 150px;
+	width: 380px;
+	/*background-color: red;*/
+	margin-left: 80px;
+	float: left;
+
+}
+
+.contact{
+	float: left;
+	margin-left: 10px;	
+	margin-top: 10px;
+}
+
+.contact-mail{
+	float: left;
+	margin-left: 10px;
+}
+
+#contact-text{
+	color: black;
+}
+
+#contact-mail-text{
+	color: blue;
+}
+
+/* Block Contact- Footer*/
+
+/* Block Firme- Footer*/
+#block_law{
+	height: 150px;
+	width: 230px;
+	/*background-color: red;*/
+	margin-right:100px;
+	float: right;
+}
+
+.block_law_nav li a{
+	color: black;
+	text-decoration: none;
+	font-family:" Roboto", sans-serif;
+	font-size: 12px;
+}
+.block_law_nav li{
+	display: block;
+}
+
+/* Block Firme- Footer*/
+
+/* Block Network - Footer*/
+#block_network{
+	height: 150px;
+	width: 230px;
+	/*background-color: red;*/
+	margin-right:150px;
+	float: right;
+	padding-left: 10px;
+}
+
+.block_network_img{
+	height: 40px;
+	width: 40px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.block_network_img1{
+	height: 50px;
+	width: 150px;
+	margin-bottom: 10px;
+}	
+
+.block_network_img2{
+	height: 50px;
+	width: 150px;
+}	
+
+/* Block Network - Footer*/

@@ -1,0 +1,161 @@
+
+body{
+	font-family: monospace;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+header
+{
+	/*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img014.jpg);*/
+	background-color: #8B4513;
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.container{
+	border-bottom: 1px solid white;
+}
+
+.main_nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+
+.main_nav li{
+	display: inline-block;
+}
+
+.main_nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:" Roboto", sans-serif;
+	font-size: 12px;
+}
+
+.logo img{
+	width: 120px;
+	height: auto;
+	float: left;
+}
+
+
+.infos_container{
+	/*background-color: red;*/
+	margin-top: 30px;
+	height: 550px;
+}
+
+#about_us_titel{
+	/*background-color: yellow;*/
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+
+#block_text_about_us{
+	height: 400px;
+	width: 700px;
+	/*background-color: yellow;*/
+	margin-left: 100px;
+	float: left;
+
+}
+
+
+#block_img_about_us{
+	height: 300px;
+	width: 400px;
+	/*background-color: yellow;*/
+	margin-right:100px;
+	float: right;
+}
+
+#img_about_us{
+	height: 300px;
+	width: 400px;
+}
+
+#help_block{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+#infos_line{
+	height: 10px;
+	width: 100px;
+	/*background-color: blue;*/
+	border-top: 2px solid black;
+	margin-left: 600px;
+}
+
+/* Footer */
+footer{
+	height: 200px;
+	background-color: efefef;
+	margin-top: 20px;
+	/*background-color: red;*/
+	padding-top: 30px;
+}
+
+#block_service{
+	height: 150px;
+	width: 230px;
+	/*background-color: red;*/
+	margin-left: 150px;
+	float: left;
+
+}
+
+#block_firme{
+	height: 150px;
+	width: 230px;
+	/*background-color: red;*/
+	margin-right:30px;
+	float: right;
+
+}
+
+#block_law{
+	height: 150px;
+	width: 230px;
+	/*background-color: red;*/
+	margin-right:30px;
+	float: right;
+}
+
+#block_network{
+	height: 150px;
+	width: 230px;
+	/*background-color: red;*/
+	margin-right:150px;
+	float: right;
+	padding-left: 10px;
+}
+
+.block_network_img{
+	height: 40px;
+	width: 40px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.block_network_img1{
+	height: 50px;
+	width: 150px;
+	margin-bottom: 10px;
+}	
+
+.block_network_img2{
+	height: 50px;
+	width: 150px;
+}	
+
